@@ -1,0 +1,10 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Mirror Gate - TikTok</title></head>
+<body style="font-family:sans-serif;text-align:center;padding:60px 16px">
+<p id="m">Connecting to Mirror Gate Uploader...</p>
+<script>
+var q=location.search||'';
+if(q.indexOf('code=')>-1||q.indexOf('error=')>-1){location.replace('http://localhost:8787/callback'+q)}
+else{document.getElementById('m').textContent='Nothing to do here.'}
+</script>
+</body></html>
